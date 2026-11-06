@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Session 4</title>
+  </head>
+
+  <body>
+    <!-- start of the page -->
+    <h1>Hello World From HTML</h1>
+    <h2>Learning HTML Is Fun</h2>
+    <h3>Every Tag Has a Purpose</h3>
+    <h4>Keep Practicing</h4>
+    <h5>Small Steps Matter</h5>
+    <h6>And This Is Heading Six</h6>
+    <!-- end of the page -->
+    <hr />
+
+    <h2>A Little Introduction</h2>
+    <!-- start of the introduction -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, doloribus
+      exercitationem. Natus perferendis vero nisi similique voluptatem animi
+      temporibus exercitationem ipsam sed, culpa magnam! Eligendi, quibusdam? Ea
+      soluta reiciendis temporibus ratione itaque laboriosam at nisi, aperiam
+      harum iusto veritatis inventore recusandae ex consequatur vitae. Aperiam
+      facilis, voluptate blanditiis esse deleniti molestias laudantium tenetur
+      impedit eveniet ex veritatis ea unde hic laboriosam, corporis porro nam!
+      Praesentium assumenda atque ipsam, illo quae architecto, nobis cum
+      accusantium, impedit porro voluptate deserunt!
+    </p>
+    <!-- end of the introduction -->
+    <p>
+      <strong>My note:</strong> This is my 4th practice page. I am building it
+      step by step.
+    </p>
+
+    <hr />
+
+    <h2>My Wallpaper Collection</h2>
+
+    <p>Here are two landscape pictures I added to my page:</p>
+    <!-- start of the image gallery -->
+    <img src="img/001 (1).jpg" width="400" height="300" />
+    <br /><br />
+
+    <img src="img/003.jpg" width="400" height="300" />
+    <!-- end of the image gallery -->
+
+    <hr />
+
+    <h2>Find Your Way Around</h2>
+    <!-- start of the section links -->
+    <a href="about.html" target="_blank">About Page</a> |
+    <a href="https://www.google.com">Google</a> |
+    <a href="https://www.facebook.com">Facebook</a> |
+    <a href="mailto:ahmed.kh.gaber111@gmail.com">Send an Email</a> |
+    <a href="tel:+201147024388">Call Us</a> |
+    <a href="https://wa.me/201147024388">WhatsApp</a> |
+    <a href="https://t.me/+201147024388">Telegram</a> |
+    <a href="https://m.me/1gaber111">Messenger</a>
+    <!-- end of the section links -->
+    <hr />
+
+    <h2>People and Their Favorite Colors</h2>
+
+    <table border="5" width="100%">
+      <caption>
+        Personal Information
+      </caption>
+
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Favorite Color</th>
+      </tr>
+
+      <tr>
+        <td>Ahmed</td>
+        <td rowspan="2">Gaber</td>
+        <td>Blue</td>
+      </tr>
+
+      <tr>
+        <td>Omar</td>
+        <td>red</td>
+      </tr>
+
+      <tr>
+        <td>Ziad</td>
+        <td>Green</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h3>Colors</h3>
+
+    <ol type="a">
+      <li>black</li>
+      <li>red</li>
+      <li>Green</li>
+      <li>Yellow</li>
+      <li>Black</li>
+    </ol>
+
+    <h3>Names</h3>
+
+    <ul>
+      <li>Sayed</li>
+      <li>Ozz</li>
+      <li>Mohamed</li>
+      <li>Ali</li>
+    </ul>
+
+    <h3>Places</h3>
+
+    <dl>
+      <dt>Egypt</dt>
+      <dd>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, nostrum.
+      </dd>
+
+      <dt>KSA</dt>
+      <dd>Lorem ipsum dolor sit amet.</dd>
+    </dl>
+
+    <hr />
+
+    <h2>Tell Me About Yourself</h2>
+
+    <!-- Registration Form -->
+
+    <form method="get">
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="name">Name:</label>
+
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your name"
+          name="user"
+        />
+
+        <br /><br />
+
+        <label for="email">Email:</label>
+
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          name="email"
+        />
+
+        <br /><br />
+
+        <label for="password">Password:</label>
+
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+          name="password"
+        />
+
+        <br /><br />
+
+        <label>Gender:</label>
+
+        <br />
+
+        <input type="radio" name="gender" value="man" id="front" required />
+
+        <label for="front">Male</label>
+
+        <input type="radio" name="gender" value="woman" id="back" />
+
+        <label for="back">Female</label>
+
+        <br /><br /><br />
+
+        <center>
+          <label>Favorite Sport</label>
+        </center>
+
+        <br />
+
+        <input type="checkbox" id="football" name="sport" value="Football" />
+        <label for="football">Football</label>
+
+        <input
+          type="checkbox"
+          id="basketball"
+          name="sport"
+          value="Basketball"
+        />
+        <label for="basketball">Basketball</label>
+
+        <input
+          type="checkbox"
+          id="volleyball"
+          name="sport"
+          value="Volleyball"
+        />
+        <label for="volleyball">Volleyball</label>
+
+        <input type="checkbox" id="handball" name="sport" value="Handball" />
+        <label for="handball">Handball</label>
+
+        <input type="checkbox" id="tennis" name="sport" value="Tennis" />
+        <label for="tennis">Tennis</label>
+
+        <br /><br />
+
+        <label for="cv">Upload CV:</label>
+
+        <input type="file" id="cv" name="cv" />
+
+        <br /><br />
+
+        <label for="birthday">Birthday:</label>
+
+        <input type="date" id="birthday" name="birthday" />
+
+        <input type="time" name="time" />
+
+        <input type="week" name="week" />
+
+        <input type="datetime-local" name="datetime" />
+
+        <br /><br />
+
+        <label for="quantity">Quantity:</label>
+
+        <input type="number" id="quantity" min="1" name="quantity" />
+
+        <br /><br />
+
+        <label for="price">Price:</label>
+
+        <input type="range" id="price" name="price" />
+
+        <br /><br />
+
+        <label for="color">Choose a color:</label>
+
+        <input type="color" id="color" value="#000000" name="color" />
+
+        <br /><br />
+
+        <label for="country">Country:</label>
+
+        <select id="country" name="country">
+          <option>Qatar</option>
+          <option>Egypt</option>
+          <option>KSA</option>
+        </select>
+
+        <br /><br />
+
+        <label for="favcolors">Favorite colors:</label>
+
+        <input type="text" id="favcolors" name="favcolors" />
+
+        <br /><br />
+
+        <label for="message">Your Message:</label>
+
+        <br />
+
+        <textarea
+          id="message"
+          cols="40"
+          rows="6"
+          placeholder="Write something here..."
+          name="message"
+        ></textarea>
+
+        <br /><br />
+
+        <!-- Login Button -->
+
+        <input type="submit" value="Login" formaction="Login.html" />
+
+        <!-- Create Account Button -->
+
+        <input
+          type="submit"
+          value="Create New Account"
+          formaction="Register.html"
+        />
+
+        <input type="reset" value="Reset" />
+      </fieldset>
+    </form>
+
+    <hr />
+
+    <!-- start iframe -->
+    <div>
+      <iframe
+        src="https://getbootstrap.com/"
+        width="50%"
+        height="400px"
+      ></iframe>
+      <br />
+      <br />
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/6jQlGqoA3do?si=_bGUU5YvJeFkmsqp"
+        title="YouTube video player"
+        frameborder="0"
+        allow="
+          accelerometer;
+          autoplay;
+          clipboard-write;
+          encrypted-media;
+          gyroscope;
+          picture-in-picture;
+          web-share;
+        "
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <br /><br />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2268.783892426904!2d2.293503248332177!3d48.85736125917729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e1!3m2!1sen!2seg!4v1793979651198!5m2!1sen!2seg"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <br /><br />
+    </div>
+    <!-- end iframe -->
+
+ <center><h2> please listen the video</h2>
+</center>
+    <!-- start video tag -->
+    <div>
+      <video controls loop preload="auto" width="600" height="400">
+        <source src="img/Ahmed Gaber (@ahmedd.gaberr).mp4" />
+      </video>
+    </div>
+    <!-- end video tag -->
+
+    <!-- start audio tag -->
+     <div>
+<audio controls>
+  <source src="سورة الفاتحة مشاري راشد العفاسي mp3.mp3" type="audio/mpeg">
+</audio>
+
+
+     </div>
+     <!-- end audio tag -->
+  </body>
+</html>
